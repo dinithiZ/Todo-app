@@ -6,6 +6,8 @@ import 'package:myapp3/views/sign_up_page.dart';
 class SignInPage extends StatelessWidget {
   final TodoController _todoController = TodoController();
 
+  SignInPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,8 +1,9 @@
-
 import 'package:flutter/material.dart';
 import 'package:myapp3/views/sign_in_page.dart';
 
 class SignUpPage extends StatelessWidget {
+  const SignUpPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

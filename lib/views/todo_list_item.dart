@@ -86,7 +86,7 @@ class _TodoListItemState extends State<TodoListItem> {
         child: Container(
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: Color.fromARGB(255, 2, 49, 14),
+            color: Color.fromARGB(255, 28, 118, 182),
             borderRadius: BorderRadius.circular(15),
           ),
           child: Row(

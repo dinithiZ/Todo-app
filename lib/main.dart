@@ -28,7 +28,7 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-  return Scaffold(
+    return Scaffold(
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
@@ -46,14 +46,13 @@ class MainPage extends StatelessWidget {
                     'Welcome to My ToDo App',
                     style: TextStyle(
                       fontSize: 32.0,
-                      fontFamily:  'SpicyRice',
+                      fontFamily: 'SpicyRice',
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 17, 4, 39),
                     ),
                   ),
                   SizedBox(height: 32.0),
                   ElevatedButton(
-                    child: Text('Sign In'),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -61,15 +60,16 @@ class MainPage extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 50, vertical: 20),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20.0),
                       ),
                     ),
+                    child: Text('Sign In'),
                   ),
                   const SizedBox(height: 16.0),
                   ElevatedButton(
-                    child: Text('Sign Up'),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -77,11 +77,13 @@ class MainPage extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 50, vertical: 20),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20.0),
                       ),
                     ),
+                    child: Text('Sign Up'),
                   ),
                 ],
               ),

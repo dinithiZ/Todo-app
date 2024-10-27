@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               AppBar(
                 title: const Text('My ToDo List'),
-                backgroundColor: Color.fromARGB(255, 2, 49, 14),
+                backgroundColor: Color.fromARGB(255, 28, 118, 182),
                 foregroundColor: Colors.white,
               ),
               Expanded(
@@ -75,16 +75,16 @@ class _HomePageState extends State<HomePage> {
                           decoration: InputDecoration(
                             hintText: 'Add a new todo item',
                             filled: true,
-                            fillColor: Color.fromARGB(255, 116, 209, 181),
+                            fillColor: Color.fromARGB(255, 97, 177, 234),
                             enabledBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Color.fromARGB(255, 2, 49, 14),
+                                color: Color.fromARGB(255, 28, 118, 182),
                               ),
                               borderRadius: BorderRadius.circular(15),
                             ),
                             focusedBorder: OutlineInputBorder(
                               borderSide: const BorderSide(
-                                color: Color.fromARGB(255, 2, 49, 14),
+                                color: Color.fromARGB(255, 28, 118, 182),
                               ),
                               borderRadius: BorderRadius.circular(15),
                             ),
