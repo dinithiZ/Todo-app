@@ -11,8 +11,8 @@ A simple and intuitive to-do application built with Flutter. This app enables us
 
 ## Technologies Used
 
-Flutter: Framework for building the app's UI and functionality.
-Dart: Programming language for Flutter.
++ Flutter: Framework for building the app's UI and functionality.
++ Dart: Programming language for Flutter.
  
 ## Installation
 
