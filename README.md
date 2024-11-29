@@ -16,7 +16,7 @@ Dart: Programming language for Flutter.
  
 # Installation
 
-## Clone the repository:
+### Clone the repository:
 git clone https://github.com/dinithiZ/Todo-app.git  
 cd flutter-todo-app  
 
