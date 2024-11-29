@@ -4,10 +4,10 @@ A simple and intuitive to-do application built with Flutter. This app enables us
 
 ## Features
 
-Add new tasks.
-View a list of all tasks.
-Edit existing tasks.
-Delete tasks no longer needed.
+* Add new tasks.
+* View a list of all tasks.
++ Edit existing tasks.
+- Delete tasks no longer needed.
 
 ## Technologies Used
 
