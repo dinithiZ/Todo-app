@@ -9,19 +9,19 @@ View a list of all tasks.
 Edit existing tasks.
 Delete tasks no longer needed.
 
-# Technologies Used
+## Technologies Used
 
 Flutter: Framework for building the app's UI and functionality.
 Dart: Programming language for Flutter.
  
-# Installation
+## Installation
 
 ### Clone the repository:
 git clone https://github.com/dinithiZ/Todo-app.git  
 cd flutter-todo-app  
 
-## Install dependencies:
+### Install dependencies:
 flutter pub get  
 
-## Run the app on a connected device or emulator:
+### Run the app on a connected device or emulator:
 flutter run  
